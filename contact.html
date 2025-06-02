@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Côte d'Ivoire - Le Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="elephantanimé.png" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Blog about how to travel in Ivory Coast"
+    />
+    <meta
+      name="keywords"
+      content="Blog, Ivory Coast, Africa, Trip, Travel, Holidays "
+    />
+    <meta name="author" content="Celia Kadjo" />
+  </head>
+  <body>
+    <!-- BARRE DE NAVIGATION DESKTOP -->
+    <header id="retour-header">
+      <div id="logo-blog">
+        <a href="index.html">
+          <ul>
+            <li><img src="elephantanimé.png" alt="logo elephant - flaticon.com" /></li>
+            <li>
+              <p>
+                Côte d'Ivoire <br />
+                Le Guide
+              </p>
+            </li>
+          </ul></a
+        >
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="le-guide.html">Le Guide</a></li>
+          <li><a href="checklist.html">Check-list</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="reseaux">
+        <ul class="reseaux-ul">
+          <li>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              class="reseaux-logo"
+              ><img
+                src="facebook.png"
+                alt="Facebook icônes créées par NajmunNahar - Flaticon https://www.flaticon.com/fr/icones-gratuites/facebook"
+            /></a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              class="reseaux-logo"
+              id="instagram"
+              ><img
+                src="instagram(1).png"
+                alt="Instagram icônes créées par Pixel perfect - Flaticon https://www.flaticon.com/fr/icones-gratuites/instagram"
+            /></a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="reseaux-logo" id="page-contact"
+              ><img
+                src="enveloppe.png"
+                alt="Email icônes créées par Those Icons - Flaticon https://www.flaticon.com/fr/icones-gratuites/email"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- POSITIONNEMENT IMAGE-HEADER -->
+    <div class="container-guide">
+      <main id="img-accueil">
+        <img
+          class="img-principale-guide"
+          src="pexels-aristotle-guweh-jr.jpg"
+          alt="Photo by Aristotlè Guweh Jr: https://www.pexels.com/photo/african-tribal-masks-display-in-abidjan-market-29143097/"
+        />
+      </main>
+      <div class="welcome">
+        <h2 class="contact-title"><a href="#contact">Contact</a></h2>
+      </div>
+    </div>
+
+    <!-- FORMULAIRE DE CONTACT -->
+    <form class="container-contact">
+      <div class="form-contact">
+        <input type="checkbox" id="sent-toggle" />
+
+        <div class="formulaire">
+          <h2 id="contact" class="h2-contact">
+            Vous avez des questions sur votre futur voyage en Côte d'Ivoire ?
+            Écrivez-nous !
+          </h2>
+          <label for="name">Nom</label>
+          
+          <input type="name" placeholder="Votre nom" required />
+
+          <label for="name">Prénom</label>
+          
+          <input type="name" placeholder="Votre prénom" required />
+
+          <label for="mail">Adresse e-mail :</label>
+         
+          <input type="email" placeholder="Votre email" required />
+          <label for="objet">Object de votre demande :</label>
+
+          <select id="objet" name="objet">
+            <option value="informations">Informations touristiques</option>
+            <option value="conseils">Conseils sur les hébergements</option>
+            <option value="idees">Idées d'itinéraires</option>
+            <option value="formalites">
+              Formalités administratives (visa,vaccins...)
+            </option>
+            <option value="securite">
+              Conseils pratiques (sécurité, transport, météo,...)
+            </option>
+            <option value="autre">Autre</option>
+          </select>
+          <label for="message">Votre message :</label>
+          
+          <textarea
+            rows="4"
+            placeholder="Décrivez votre projet ou posez-nous votre question. Nous ferons de notre mieux pour vous aider à préparer votre séjour !"
+            required
+          ></textarea>
+          <br />
+
+          <br />
+          <label for="sent-toggle" class="btn">Envoyer ma demande</label>
+        </div>
+
+        <div id="success-message">Bien envoyé !</div>
+      </div>
+    </form>
+ <div>
+      <a href="#retour-header"
+        ><img class="up-bouton" src="fleche-vers-le-haut.png" alt="logo fleche vers le haut - flaticon.com"
+      /></a>
+    </div>
+     <footer>
+      <div id="global-footer-all">
+        <div class="global-footer">
+          <div id="logo-blog">
+            <a href="index.html">
+              <ul>
+                <li><img src="elephantanimé.png" alt="logo elephant - flaticon.com" /></li>
+                <li>
+                  <p>
+                    Côte d'Ivoire <br />
+                    Le Guide
+                  </p>
+                </li>
+              </ul></a
+            >
+          </div>
+
+          <div class="infos-utiles">
+            <h5>(C) 2025 - Fait par Côte d'Ivoire - le Guide</h5>
+            <h5>Tout droit réservés</h5>
+            <div>
+              <h5>Crédits :</h5>
+
+              <p id="credits">Unsplash.com - Pexels.com - Flaticon.com</p>
+            </div>
+          </div>
+
+          <div id="footer-contact">
+            <h5>Nous contacter</h5>
+
+            <ul class="reseaux-ul-footer">
+              <li>
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  class="reseaux-logo"
+                  ><img
+                    src="facebook.png"
+                    alt="Facebook icônes créées par NajmunNahar - Flaticon https://www.flaticon.com/fr/icones-gratuites/facebook"
+                /></a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  class="reseaux-logo"
+                  id="instagram"
+                  ><img
+                    src="instagram(1).png"
+                    alt="Instagram icônes créées par Pixel perfect - Flaticon https://www.flaticon.com/fr/icones-gratuites/instagram"
+                /></a>
+              </li>
+
+              <li>
+                <a href="contact.html" class="reseaux-logo" id="page-contact"
+                  ><img
+                    src="enveloppe.png"
+                    alt="Email icônes créées par Those Icons - Flaticon https://www.flaticon.com/fr/icones-gratuites/email"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
